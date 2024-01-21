@@ -1,6 +1,6 @@
 package software.ulpgc.moneycalculator.fixerws;
 
-import software.ulpgc.moneycalculator.Currency;
+import software.ulpgc.moneycalculator.Model.Currency;
 import software.ulpgc.moneycalculator.CurrencyLoader;
 
 import java.util.List;

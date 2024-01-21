@@ -3,7 +3,7 @@ package software.ulpgc.moneycalculator.fixerws;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import software.ulpgc.moneycalculator.Currency;
+import software.ulpgc.moneycalculator.Model.Currency;
 import software.ulpgc.moneycalculator.CurrencyLoader;
 
 import java.io.BufferedReader;
@@ -54,7 +54,7 @@ public class FixerCurrencyLoader implements CurrencyLoader {
                 response.append(line);
             }
 
-            return new String(response.toString());
+            return response.toString();
         }
     }
 }
